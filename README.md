@@ -8,7 +8,7 @@
 
 - These are questions which I have solved and encountered during my placement preparation for IT companies and found them         important and useful for revising different data structures concepts.
 
-- Will be adding more questions as I solve them.
+- Will continue to add more questions as I solve them.
 
 *These questions can be used as reference if you are preparing for coding rounds for IT companies.*
 
