@@ -67,7 +67,7 @@ int main()
 {
 	int n, m ; cin>>n>>m ;
 	vector<int> adj[n] ;
-	int u,v ;
+	int u,v ; cin >> u >> v ;
 	for(int i=0;i<m;i++)
 	{
        adj[u].push_back(v) ;
