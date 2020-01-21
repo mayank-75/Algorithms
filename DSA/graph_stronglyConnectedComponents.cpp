@@ -3,6 +3,9 @@ sort the vertices in topological order using dfs and store them
 then reverse the direction of directed edges of the graph
 then perform one more dfs on the node in the topologcal order*/
 
+# include<bits/stdc++.h>
+using namespace std ;
+
 void dfs1(vector<int> adj[], int src, bool vis[], stack<int> &s)
 {
     vis[src] = true ;
