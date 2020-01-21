@@ -67,10 +67,11 @@ int main()
 {
 	int n, m ; cin>>n>>m ;
 	vector<int> adj[n] ;
-	int u,v ; cin >> u >> v ;
+	int u,v ; 
 	for(int i=0;i<m;i++)
 	{
-       adj[u].push_back(v) ;
+	   cin >> u >> v ;
+           adj[u].push_back(v) ;
 	}
 
 	cout<<kosaraju(n,adj)<<endl ;
