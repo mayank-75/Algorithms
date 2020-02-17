@@ -7,7 +7,7 @@ int binsearchx(int l, int r,int y)
 	while(l<=r)
 	{
 		mid = (l+r)/2 ;
-		cout<<"?"<<mid<<" "<<y<<endl ;
+		cout<<"? "<<mid<<" "<<y<<endl ;
 		fflush(stdout) ;
 		string s ; cin>>s ;
 		if(s == "YES") ans = mid,l = mid+1 ; 
@@ -23,7 +23,7 @@ int binsearchy(int l, int r,int x)
 	while(l<=r)
 	{
 		mid = (l+r)/2 ;
-		cout<<"?"<<x<<" "<<mid<<endl ;
+		cout<<"? "<<x<<" "<<mid<<endl ;
 		fflush(stdout) ;
 		string s ; cin>>s ;
 		if(s == "YES") ans = mid,l = mid+1 ; 
@@ -43,9 +43,6 @@ int main()
 	//cout<<y<<endl ;
     x1 *= 2 ;
 	int ans = ((x1*x1)+(x2*(y-x1)));
-	cout<<"!"<<ans<<endl ;
+	cout<<"! "<<ans<<endl ;
 	
 }
-
-
-
