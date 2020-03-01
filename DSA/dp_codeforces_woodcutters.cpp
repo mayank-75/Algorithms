@@ -22,6 +22,7 @@ int32_t main()
 	if(n <= 2) { cout<<n<<endl ; return 0 ;}
 	pair<int,int> a[n] ;
 	for(int i=0;i<n;i++) cin>>a[i].f>>a[i].s ;
+	// 0 means do not fall a tree, 1 means to the left, 2 means to the right
 	int dp[n][3] ;
     memset(dp,0,sizeof(dp)) ;
     dp[0][0]= 0, dp[0][1] = 1, dp[0][2] = 0 ;
