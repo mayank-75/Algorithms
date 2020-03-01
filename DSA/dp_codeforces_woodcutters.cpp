@@ -25,6 +25,7 @@ int32_t main()
 	// 0 means do not fall a tree, 1 means to the left, 2 means to the right
 	int dp[n][3] ;
     memset(dp,0,sizeof(dp)) ;
+	// we can always fell the first tree to the left to get optimum answer and last tree to the right
     dp[0][0]= 0, dp[0][1] = 1, dp[0][2] = 0 ;
     for(int i=1;i<n-1;i++)
     {
